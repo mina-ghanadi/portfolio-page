@@ -1,167 +1,294 @@
 <!DOCTYPE html>
-
 <html lang="en">
-
   <head>
-
     <meta charset="UTF-8" />
-
-    <meta name="app-description" content="The page contains all job history and portofolio of Mina Ghanadi in detail with links to her websites"
-
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-
-    <title>Mina Ghanadi portfoloio page-all working history</title>
-
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
-
-    <link rel="stylesheet" href="style.css" />
-
+    <title>Mina Ghanadi Portfolio Website</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://kit.fontawesome.com/51daa1f11d.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="src/style.css" />
   </head>
-
   <body>
-
-    <nav class="navbar navbar-expand-lg bg-body-tertiary navbari">
-
-        <div class="container-fluid">
-
-          <a class="navbar-brand navbari" href="index.html"><span class="material-symbols-outlined">
-
-            cottage
-
-            </span> Mina</a>
-
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-
-            <span class="navbar-toggler-icon"></span>
-
-          </button>
-
-          <div class="collapse navbar-collapse navbari" id="navbarNavDropdown">
-
-            <ul class="navbar-nav navbari">
-
-              <li class="nav-item">
-
-                <a class="nav-link active navbari" aria-current="page" href="index.html">Home</a>
-
-              </li>
-
-              <li class="nav-item">
-
-                <a class="nav-link navbari" href="about.html">About me</a>
-
-              </li>
-
-              <li class="nav-item">
-
-                <a class="nav-link navbari" href="about.html#contact">Contact me</a>
-
-              </li>
-
-            </ul>
-
-          </div>
-
-        </div>
-
-      </nav>
-
-      <div class="container">
-
-      <h1>
-
-      👋 Hi I am
-
-    </h1>
-
-    <h2>Mina Ghanadi</h2>
-
-    <h3>front-end developer based on Iran</h3>
-
-    <span class="buttons"
-
-      ><button class="contacti">
-
-        <a href="about.html#contact" title="contact detail" class="contactis">Contact me</a>
-
-      </button>
-
-      <button class="about"><a href="about.html" title="about me in detail">About me</a></button></span
-
+    <!--Navigation bar------------------------------------------>
+    <nav
+      class="navbar navbar-fixed-top navbar-expand-sm"
+      style="background-color: #004e11"
     >
-
-    <div class="row job-grid">
-
-      <div class="col-md-6 job-grid with-style-jobs">
-
-        <img src="weather-app.jpg" alt="works" class="web-app rounded">
-
+      <div class="container-fluid">
+        <a class="navbar-brand" style="color: white" href="index.html"
+          >Mina Ghanadi</a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a
+                class="nav-link active"
+                style="color: white"
+                aria-current="page"
+                href="/index.html"
+              >
+                Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" style="color: white" href="work.html">Work</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" style="color: white" href="about-me.html"
+                >About</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" style="color: white" href="contact.html"
+                >Contact</a
+              >
+            </li>
+          </ul>
+          <ul class="navbar-nav me mb-2 mb-lg-0">
+            <!--Social media icons-->
+            <li class="nav-item justify-content-end">
+              <a class="nav-link" style="color: white" href="#"
+                ><i
+                  class="fa-brands fa-instagram fa-sm"
+                  style="color: #ffffff"
+                ></i
+              ></a>
+            </li>
+            <li class="nav-item justify-content-end">
+              <a class="nav-link" style="color: white" href="#"
+                ><i
+                  class="fa-brands fa-linkedin fa-sm"
+                  style="color: #ffffff"
+                ></i
+              ></a>
+            </li>
+            <li class="nav-item justify-content-end">
+              <a class="nav-link" style="color: white" href="#"
+                ><i class="fa-brands fa-github fa-sm" style="color: #ffffff"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
       </div>
-
-      <div class="col-md-6 job-grid">
-
-        <div class="app-description"><h4>Weather App</h4>
-
-         Weather is the state of the atmosphere, describing for example the degree to which it is hot or cold, wet or dry, calm or stormy, clear or cloudy. On Earth, most weather phenomena occur in the lowest layer of the planet's atmosphere, the troposphere, just below the stratosphere. Weather refers to day-to-day temperature, precipitation, and other atmospheric conditions, whereas climate is the term for the averaging of atmospheric conditions over longer periods of time. When used without qualification, "weather" is generally understood to mean the weather of Earth.
-
-      <button class="description-button">Launch weather app</button>
-
+    </nav>
+    <!--Header of main page---------------------------------->
+    <img
+      class="homepage-background-image img-fluid shadow-sm"
+      src="image/header.jpg"
+      alt="Mina Ghanadi"
+    />
+    <a class="aboutme-button" href="about-me.html">About me</a>
+    <!--Brief story-------------------------------------------->
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8">
+          <div class="brief-story">Brief story</div>
+          My name is Mina and I am from capital of Iran, Tehran city. I have
+          master of Electrical engineer. I got 2 masters of engineering. One is
+          master of smart grid that I obtained from Tampere university in
+          Finland. The other one is master of electrical power system management
+          which I got from Shahid Beheshti university in Iran. I had several job
+          experiences in different fields. I uses to be a technical engineer in
+          Pars shar componey for several yeras. One of my interests is teaching
+          so I was an english teacher for several years in Iran and Finland. I
+          am professional in teaching to kids and teenagers. Belive me or not, I
+          had another job in businness. I start-up my own instagram shop years
+          ago and I trade Korean cosmetic and skin-care although this job coudnt
+          stand after some ecenomical problems in my country. I had many job
+          experiences and these days I am into coding.
+        </div>
+        <!--Skills---------------------------------------->
+        <div class="col-md-4">
+          <div class="skills">Skills</div>
+          <div>PHP</div>
+          <div class="progress">
+            <div
+              class="progress-bar"
+              role="progressbar"
+              aria-valuenow="0"
+              aria-valuemin="0"
+              aria-valuemax="100"
+            ></div>
+          </div>
+          <div>CSS</div>
+          <div class="progress">
+            <div
+              class="progress-bar bg-info"
+              role="progressbar"
+              style="width: 25%"
+              aria-valuenow="25"
+              aria-valuemin="0"
+              aria-valuemax="100"
+            ></div>
+          </div>
+          <div>Java Script</div>
+          <div class="progress">
+            <div
+              class="progress-bar bg-success"
+              role="progressbar"
+              style="width: 50%"
+              aria-valuenow="50"
+              aria-valuemin="0"
+              aria-valuemax="100"
+            ></div>
+          </div>
+          <div>Photoshop</div>
+          <div class="progress">
+            <div
+              class="progress-bar"
+              role="progressbar"
+              style="width: 75%"
+              aria-valuenow="75"
+              aria-valuemin="0"
+              aria-valuemax="100"
+            ></div>
+          </div>
+          <div>HTML</div>
+          <div class="progress">
+            <div
+              class="progress-bar bg-warning"
+              role="progressbar"
+              style="width: 100%"
+              aria-valuenow="100"
+              aria-valuemin="0"
+              aria-valuemax="100"
+            ></div>
+          </div>
+        </div>
       </div>
-
+    </div>
+    <!--Previous works-------------------------------------------------------->
+    <div class="container">
+      <div class="row job-grid">
+        <div class="col-md-6 job-grid with-style-jobs">
+          <img src="weather-app.jpg" alt="works" class="web-app rounded" />
+        </div>
+        <div class="col-md-6 job-grid">
+          <div class="app-description">
+            <h4>Weather App</h4>
+            Weather is the state of the atmosphere, describing for example the
+            degree to which it is hot or cold, wet or dry, calm or stormy, clear
+            or cloudy. On Earth, most weather phenomena occur in the lowest
+            layer of the planet's atmosphere, the troposphere, just below the
+            stratosphere. Weather refers to day-to-day temperature,
+            precipitation, and other atmospheric conditions, whereas climate is
+            the term for the averaging of atmospheric conditions over longer
+            periods of time. When used without qualification, "weather" is
+            generally understood to mean the weather of Earth.
+            <a
+              class="description-button"
+              href="https://weather-app-1-59h.pages.dev/"
+              target="_blank"
+              >Launch weather app</a
+            >
+          </div>
+        </div>
+      </div>
+      <div class="row job-grid">
+        <div class="col-md-6 job-grid">
+          <div class="app-description">
+            <h4>Travel App</h4>
+            Travel is the movement of people between distant geographical
+            locations. Travel can be done by foot, bicycle, automobile, train,
+            boat, bus, airplane, ship or other means, with or without luggage,
+            and can be one way or round trip.Travel can also include relatively
+            short stays between successive movements, as in the case of tourism.
+            <a
+              class="description-button"
+              href="https://www.shecodes.io/workshops/shecodes-basics-876a7bcf-82b9-44d1-93d1-aff8683eed7c/projects/1859180"
+              target="_blank"
+              >Launch travel app</a
+            >
+          </div>
+        </div>
+        <div class="col-md-6 rounded job-grid with-style-jobs">
+          <img src="web.jpg" alt="works" class="web-app rounded" />
+        </div>
+      </div>
+      <div class="row job-grid">
+        <div class="col-md-6 rounded job-grid with-style-jobs">
+          <img src="certificate.jpg" alt="works" class="web-app rounded" />
+        </div>
+        <div class="col-md-6 job-grid">
+          <div class="app-description">
+            <h4>Certificate</h4>
+            A SheCodes Verified Certificate indicates that the participant has
+            successfully completed a SheCodes workshop, including all required
+            assignments and affiliated tasks. It also signifies that the
+            identity of the participant has been verified by SheCodes.
+            <a
+              class="description-button"
+              href="https://www.shecodes.io/graduates/98308-mina-ghanadi"
+              target="_blank"
+              >Certificate</a
+            >
+          </div>
+        </div>
+      </div>
     </div>
 
-    <div class="row job-grid">
-
-      <div class="col-md-6 job-grid">
-
-        <div class="app-description"><h4>Travel App</h4>
-
-         Travel is the movement of people between distant geographical locations. Travel can be done by foot, bicycle, automobile, train, boat, bus, airplane, ship or other means, with or without luggage, and can be one way or round trip.Travel can also include relatively short stays between successive movements, as in the case of tourism.
-
-         <button class="description-button">Launch travel app</button>
-
-         </div>
-
+    <div class="container pt-5">
+      <div class="row mt-5 with-style-jobs p-3">
+        <div class="col-md-7">
+          <h3 class="ps-5 text-center">Work Inquiry</h3>
+          <h6 class="ps-5 text-center">Let's work together</h6>
+        </div>
+        <div class="col-md-5">
+          <a
+            class="btn btn-success p-3 about-me-button"
+            href="contact.html"
+            role="button"
+          >
+            Contact me</a
+          >
+        </div>
       </div>
-
-      <div class="col-md-6 rounded job-grid with-style-jobs">
-
-        <img src="web.jpg" alt="works" class="web-app rounded">
-
-      </div>
-
     </div>
+    <div class="container-fluid text-center pt-5 pb-5">
+      <a href="mailto:mina@yahoo.com" class="text-center m-3 mail"
+        >Mina@yahoo.com</a
+      ><br /><br />
 
-    <div class="row job-grid">
-
-      <div class="col-md-6 rounded job-grid with-style-jobs">
-
-        <img src="certificate.jpg" alt="works" class="web-app rounded">
-
-      </div>
-
-      <div class="col-md-6 job-grid">
-
-        <div class="app-description"><h4>Certificate</h4>
-
-         A SheCodes Verified Certificate indicates that the participant has successfully completed a SheCodes workshop, including all required assignments and affiliated tasks. It also signifies that the identity of the participant has been verified by SheCodes.
-
-         <button class="description-button">Certificate</button>
-
-         </div>
-
-      </div>
-
+      <a style="color: black" href="#"
+        ><i class="fa-brands fa-instagram fa-lg p-3" style="color: black"></i
+      ></a>
+      <a style="color: black" href="#"
+        ><i class="fa-brands fa-linkedin fa-lg p-3" style="color: black"></i
+      ></a>
+      <a style="color: rgb(5, 5, 5)" href="#"
+        ><i class="fa-brands fa-github fa-lg p-3" style="color: black"></i
+      ></a>
+      <br />
+      <hr />
+      <br />
+      ✌️ This website was coded by Mina Ghanadi, and is
+      <a href="">open-sourced</a>
     </div>
-
-    </div>
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-
+    <!------------------------------------------------------------------------------>
+    <script src="/src/app.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
   </body>
-
 </html>
